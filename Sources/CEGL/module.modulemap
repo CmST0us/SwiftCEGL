@@ -1,0 +1,5 @@
+module CEGL [system][extern_c] {
+    umbrella header "shims.h"
+    link "EGL"
+    export *
+}
